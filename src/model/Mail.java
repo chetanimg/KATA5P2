@@ -9,9 +9,7 @@ public class Mail {
     }
     
     public String getDomains(){
-
         String res [];
-        
         try {
             res = mail.split("[@]");
             return res[1];

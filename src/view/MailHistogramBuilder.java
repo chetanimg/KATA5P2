@@ -14,8 +14,6 @@ public class MailHistogramBuilder {
             String domain = mail.getDomains();
             if(!domain.equals("")) histogram.increment(domain);
         }
-        
         return histogram;
     }
-    
 }

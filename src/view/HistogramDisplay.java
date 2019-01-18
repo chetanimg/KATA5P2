@@ -21,7 +21,6 @@ public class HistogramDisplay extends ApplicationFrame{
         histogram = histo;
         setContentPane(CreatePanel());
         pack(); 
-
     }
     
     public JPanel CreatePanel(){
